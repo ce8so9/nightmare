@@ -143,7 +143,7 @@ Other ways to navigate a program are:
 * 'step' - which will take you through one line of code, but will step into function calls
 * 'stepi' - whch will take you through one instruction at a time, stepping into function calls
 
-For each of these methods, work through the program after setting a breakpoint in main. Take specific care to see what step and stepi see after entering puts. Most of the time, because those are part of standard libraries, we don't need to step into anything.
+For each of these methods, work through the program after setting a breakpoint in main. Take specific care to see what step and stepi does after entering puts. Most of the time, because those are part of standard libraries, we don't need to step into anything.
 
 ## Breakpoints
 
