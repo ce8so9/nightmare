@@ -8,7 +8,7 @@ First off, gdb is a debugger (specifically the gnu debugger). Gef is an a gdb wr
 
 A debugger is software that allows us to perform various types of analysis on a process as it's running, and alter it in a variety of different ways.
 
-Now you can tell if you have it installed by just looking at gdb. For instance this is the look of gdb if you have gef installed:
+Now you can tell if you have gef installed by just looking at gdb. For instance this is the look of gdb if you have gef installed:
 
 ```
 $ gdb
