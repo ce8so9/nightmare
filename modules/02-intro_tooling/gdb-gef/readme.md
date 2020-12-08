@@ -36,7 +36,7 @@ gef➤
 If you don't have it installed this is what vanilla gdb looks like:
 
 ```
-$    gdb
+$ gdb
 GNU gdb (Ubuntu 8.2.91.20190405-0ubuntu3) 8.2.91.20190405-git
 Copyright (C) 2019 Free Software Foundation, Inc.
 License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
