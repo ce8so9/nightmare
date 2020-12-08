@@ -23,7 +23,7 @@ Type "show configuration" for configuration details.
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>.
 Find the GDB manual and other documentation resources online at:
-    <http://www.gnu.org/software/gdb/documentation/>.
+<http://www.gnu.org/software/gdb/documentation/>.
 
 For help, type "help".
 Type "apropos word" to search for commands related to "word".
@@ -48,7 +48,7 @@ Type "show configuration" for configuration details.
 For bug reporting instructions, please see:
 <http://www.gnu.org/software/gdb/bugs/>.
 Find the GDB manual and other documentation resources online at:
-    <http://www.gnu.org/software/gdb/documentation/>.
+<http://www.gnu.org/software/gdb/documentation/>.
 
 For help, type "help".
 Type "apropos word" to search for commands related to "word".
