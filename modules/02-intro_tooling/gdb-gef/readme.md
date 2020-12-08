@@ -33,7 +33,7 @@ GEF for linux ready, type `gef' to start, `gef config' to configure
 gef➤  
 ```
 
-If you don't have it installed this is what vanilla gdb looks like:
+If you don't have gef installed this is what vanilla gdb looks like:
 
 ```
 $ gdb
