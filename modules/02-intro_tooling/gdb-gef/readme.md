@@ -6,7 +6,7 @@ So throughout this project, we will be using a lot of different tools. The purpo
 
 First off, gdb is a debugger (specifically the gnu debugger). Gef is an a gdb wrapper, designed  to give us some extended features (https://github.com/hugsy/gef). To install it, you can find the instructions on the github page. it's super simple.
 
-A debugger is software that allows us to perform various types of analysis of a process as it's running, and alter it in a variety of different ways.
+A debugger is software that allows us to perform various types of analysis on a process as it's running, and alter it in a variety of different ways.
 
 Now you can tell if you have it installed by just looking at gdb. For instance this is the look of gdb if you have gef installed:
 
