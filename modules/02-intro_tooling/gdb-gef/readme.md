@@ -57,7 +57,7 @@ Type "apropos word" to search for commands related to "word".
 
 ## Running
 
-To run the binary `hello_world` in gdb:
+To run `hello_world` binary in gdb:
 
 ```
 gdb ./hello_world 
