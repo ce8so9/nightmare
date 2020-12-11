@@ -9,7 +9,7 @@ Also one thing to note, pwntools has Python2 and Python3 versions. Atm this cour
 It's fairly simple process. The installation process is pretty much just using pip:
 
 ```
-$    sudo pip install pwn
+$  sudo pip install pwn
 ```
 
 If you have any problems, google will help a lot.
