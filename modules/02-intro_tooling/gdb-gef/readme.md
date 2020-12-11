@@ -371,20 +371,6 @@ gef➤
 
 ```
 
-We can see that the register `esp` holds the value `0xffffd0d0`, which is a pointer. Let's see what it points to:
-
-```
-gef➤  x/a 0xffffd0d0
-0xffffd0d0:	0x80484b0
-gef➤  x/10c 0x80484b0
-0x80484b0:	0x68	0x65	0x6c	0x6c	0x6f	0x20	0x77	0x6f
-0x80484b8:	0x72	0x6c
-gef➤  x/s 0x80484b0
-0x80484b0:	"hello world!"
-```
-
-So we can see that it points to the string `hello world!`, which will be printed by `puts` (since `puts` takes a single argument which is a char pointer). One thing in gdb when you examine things with `x`, you can specify what you want to examine it as. Possible things include as an address `x/a`, a number of characters `x/10c` string `x/s`, as a qword `x/g`, or as a dword `x/w`.
-
 let's view the contents of all of the registers:
 
 ```
@@ -408,6 +394,20 @@ gs             0x63	0x63
 
 ```
 
+We can see that the register `esp` holds the value `0xffffd0d0`, which is a pointer. Let's see what it points to:
+
+```
+gef➤  x/a 0xffffd0d0
+0xffffd0d0:	0x80484b0
+gef➤  x/10c 0x80484b0
+0x80484b0:	0x68	0x65	0x6c	0x6c	0x6f	0x20	0x77	0x6f
+0x80484b8:	0x72	0x6c
+gef➤  x/s 0x80484b0
+0x80484b0:	"hello world!"
+```
+
+So we can see that it points to the string `hello world!`, which will be printed by `puts` (since `puts` takes a single argument which is a char pointer). One thing in gdb when you examine things with `x`, you can specify what you want to examine it as. Possible things include as an address `x/a`, a number of characters `x/10c` string `x/s`, as a qword `x/g`, or as a dword `x/w`.
+
 Now let's view the stack frame:
 
 ```
@@ -420,6 +420,8 @@ Stack level 0, frame at 0xffffd100:
   ebp at 0xffffd0e8, eip at 0xffffd0fc
 
 ```
+
+## Changing Values
 
 Now let's view the disassembly for the main function:
 
@@ -445,8 +447,6 @@ Dump of assembler code for function main:
 End of assembler dump.
 
 ```
-
-## Changing Values
 
 As you can see, we are at the instruction for puts. 
 
